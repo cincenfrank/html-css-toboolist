@@ -18,10 +18,21 @@ li{
     list-style-type: none;
 }
 
+li::before{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 15px;
+}
+
 #title{
     display: inline-block;
-    font-size: 40px;
-    
+    font-size: 50px;
+    vertical-align: middle;
 }
 
 #logo{
@@ -82,24 +93,11 @@ li{
 
 .done::before{
     content: '\002713';
-    border: 1px solid;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center; 
-    justify-content: center;
     color: green;
+   
 }
 .undone::before{
     content: '\002715';
-    border: 1px solid;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center; 
-    justify-content: center;
     color: red;
 }
 
@@ -110,63 +108,47 @@ li{
     margin-top: 20px;
 }
 
-.editorial::after{
-    content: 'Editorial';
-    background-color:cornflowerblue;
+
+.chip::after{
     color: white;
     border: 0;
     border-radius: 15px;
     padding: 10px;
     font-size: 15px;
+}
+
+.editorial::after{
+    content: 'Editorial';
+    background-color:cornflowerblue;
+
 }
 
 .q1::after{
     content: 'Q1 Goals';
     background-color:purple;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
+ 
 }
 
 .recruiting::after{
     content: 'Recruiting';
     background-color:cadetblue;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
+  
 }
 
 .mobile::after{
     content: 'Mobile';
     background-color:orange;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
+
 }
 
 .website::after{
     content: 'Website';
     background-color:magenta;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
+
 }
 
 .sales::after{
     content: 'Sales';
     background-color:greenyellow;
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
 }
 
