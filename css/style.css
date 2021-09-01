@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -37,35 +38,30 @@ li{
     padding-bottom: 50px;
 }
 
-.section{
+.pad-left{
     padding-left: 50px;
 }
 
 .commands{
-    
     padding-bottom: 15px;
     border-bottom: 4px solid gainsboro;
 }
 
 .group-title{
     margin-bottom: 10px;
-
 }
 
 .group-title::before{
     content: '\25BC';
     font-size: medium;
     margin-right: 10px;
-   
 }
 
 .button{
-
     border: 0;
     border-radius: 5px;
     padding: 10px;
     font-size: 15px;
-    
 }
 
 .active{
@@ -110,6 +106,8 @@ li{
 
 .task{
     font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .editorial::after{
@@ -121,3 +119,54 @@ li{
     padding: 10px;
     font-size: 15px;
 }
+
+.q1::after{
+    content: 'Q1 Goals';
+    background-color:purple;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.recruiting::after{
+    content: 'Recruiting';
+    background-color:cadetblue;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.mobile::after{
+    content: 'Mobile';
+    background-color:orange;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.website::after{
+    content: 'Website';
+    background-color:magenta;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sales::after{
+    content: 'Sales';
+    background-color:greenyellow;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+

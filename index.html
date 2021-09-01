@@ -1,38 +1,74 @@
+<!-- cSpell: disable -->
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="Boolean ToDo Web Page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div></div>
         <img src="img/Logo.png" alt="logo boolean" id="logo">
         <h1 id="title">Toboolist</h1>
     </header>
     <main>
 
         <div class="container">
-            <section class="commands section">
+            <section class="commands pad-left">
                 <button class="active button">Add Task</button>
                 <button class="button inactive">Add Section</button>
             </section>
 
 
-            <section class="tasks-list section">
+            <section class="tasks-list pad-left">
                 <h2 class="group-title">New Task</h2>
                 <ul>
                     <li class="task done editorial">
-                        Lorem ipsum dolor sit amet consectetur
+                        Quarterly Newsletter
                     </li>
                 </ul>
-
             </section>
 
+            <section class="tasks-list pad-left">
+                <h2 class="group-title">Today</h2>
+                <ul>
+                    <li class="task done editorial">
+                        Recruiting Blog post
+                    </li>
+                    <li class="task done q1">
+                        Mobile App launch
+                    </li>
+                    <li class="task undone recruiting">
+                        Interview John H.
+                    </li>
+                    <li class="task done mobile">
+                        Submit update to mobile storefronts
+                    </li>
+                </ul>
+            </section>
 
+            <section class="tasks-list pad-left">
+                <h2 class="group-title">Upcoming</h2>
+                <ul>
+                    <li class="task undone">
+                        Schedule meeting with Alex
+                    </li>
+                    <li class="task done website">
+                        Homepage refresh
+                    </li>
+                    <li class="task done sales">
+                        Onboard new Sales Team member
+                    </li>
+                    <li class="task done editorial">
+                        Review editorial calendar
+                    </li>
+                </ul>
+            </section>
         </div>
 
     </main>
