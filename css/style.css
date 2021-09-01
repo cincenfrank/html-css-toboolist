@@ -27,6 +27,7 @@ li::before{
     align-items: center; 
     justify-content: center;
     font-size: 15px;
+    margin-right: 10px;
 }
 
 #title{
