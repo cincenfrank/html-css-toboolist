@@ -1,155 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    background-color: gainsboro;
+body {
+  background-color: gainsboro;
 }
 
-header{
-    background-color: white;
-    padding: 15px 25px;
+header {
+  background-color: white;
+  padding: 15px 25px;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-li::before{
-    border: 1px solid;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center; 
-    justify-content: center;
-    font-size: 15px;
-    margin-right: 10px;
+li::before {
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-#title{
-    display: inline-block;
-    font-size: 50px;
-    vertical-align: middle;
+#title {
+  display: inline-block;
+  font-size: 50px;
+  line-height: 70px;
+  vertical-align: middle;
 }
 
-#logo{
-    vertical-align: middle;
-    width: 70px;
+#logo {
+  vertical-align: middle;
+  width: 70px;
 }
 
-.container{
-    background-color: white;
-    width: 80%;
-    margin: 50px auto;
-    border-radius: 10px;
-    padding-top: 25px;
-    padding-bottom: 50px;
+.container {
+  background-color: white;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
-.pad-left{
-    padding-left: 50px;
+.pad-left {
+  padding-left: 50px;
 }
 
-.commands{
-    padding-bottom: 15px;
-    border-bottom: 4px solid gainsboro;
+.commands {
+  padding-bottom: 15px;
+  border-bottom: 4px solid gainsboro;
 }
 
-.group-title{
-    margin-bottom: 10px;
+.group-title {
+  margin-bottom: 10px;
 }
 
-.group-title::before{
-    content: '\25BC';
-    font-size: medium;
-    margin-right: 10px;
+.group-title::before {
+  content: "\25BC";
+  font-size: medium;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-.button{
-    border: 0;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 15px;
+.button {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
-.active{
-    background-color:cornflowerblue;
-    color: white;
-    border: 2px solid cornflowerblue;
+.active {
+  background-color: cornflowerblue;
+  color: white;
+  border: 2px solid cornflowerblue;
 }
 
-.inactive{
-    background-color: transparent;
-    border: 2px solid gainsboro;
-    color: gainsboro;
+.inactive {
+  background-color: transparent;
+  border: 2px solid gainsboro;
+  color: gainsboro;
 }
 
-.tasks-list{
-    padding-top: 50px;
+.tasks-list {
+  padding-top: 50px;
 }
 
-.done::before{
-    content: '\002713';
-    color: green;
-   
+.done::before {
+  content: "\002713";
+  color: green;
 }
-.undone::before{
-    content: '\002715';
-    color: red;
-}
-
-
-.task{
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.undone::before {
+  content: "\002715";
+  color: red;
 }
 
-
-.chip::after{
-    color: white;
-    border: 0;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 15px;
+.task {
+  font-size: 20px;
+  line-height: 50px;
 }
 
-.editorial::after{
-    content: 'Editorial';
-    background-color:cornflowerblue;
-
+.chip::after {
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  vertical-align: middle;
 }
 
-.q1::after{
-    content: 'Q1 Goals';
-    background-color:purple;
- 
+.editorial::after {
+  content: "Editorial";
+  background-color: cornflowerblue;
 }
 
-.recruiting::after{
-    content: 'Recruiting';
-    background-color:cadetblue;
-  
+.q1::after {
+  content: "Q1 Goals";
+  background-color: purple;
 }
 
-.mobile::after{
-    content: 'Mobile';
-    background-color:orange;
-
+.recruiting::after {
+  content: "Recruiting";
+  background-color: cadetblue;
 }
 
-.website::after{
-    content: 'Website';
-    background-color:magenta;
-
+.mobile::after {
+  content: "Mobile";
+  background-color: orange;
 }
 
-.sales::after{
-    content: 'Sales';
-    background-color:greenyellow;
+.website::after {
+  content: "Website";
+  background-color: magenta;
 }
 
+.sales::after {
+  content: "Sales";
+  background-color: greenyellow;
+}
